@@ -1,0 +1,33 @@
+@import "../../styles/variables";
+
+.chart-content {
+  .student-details {
+    .bottom-line-students {
+      border-bottom: 2px solid $orange-color;
+    }
+
+    .wrap-content {
+      .icon-size {
+        margin-right: 35px;
+      }
+    }
+    .total-num {
+      font-weight: 600;
+    }
+    .bottom-content {
+      border-bottom: 2px solid $green-color;
+    }
+
+    .icon-size {
+      width: 25px;
+      height: 25px;
+    }
+    .profile-content {
+      display: flex;
+      margin-top: 16px;
+    }
+    .percent {
+      margin: 0px 5px 0px 12px;
+    }
+  }
+}

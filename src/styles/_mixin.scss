@@ -1,0 +1,43 @@
+@mixin btn-style {
+  border: 1px solid #29abe2;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+}
+@mixin check-box {
+  width: 30px;
+  height: 30px;
+}
+
+@mixin reset-section {
+    display: flex;
+    margin-top: 20px;
+    border-bottom: 1px solid $grey;
+    padding-bottom: 22px;
+
+
+
+
+}
+
+
+@mixin blocking-user {
+  margin-top: 12px;
+  border-bottom: 1px solid $grey;
+  padding-bottom: 16px;
+  width: 100%;
+  
+}
+
+@mixin same-row {
+  display: flex;
+}
+
+@mixin close-righticon {
+  margin-left: 8px;
+}
+
+@mixin checkbox-btn{
+    width: 24px;
+    height: 24px;
+}

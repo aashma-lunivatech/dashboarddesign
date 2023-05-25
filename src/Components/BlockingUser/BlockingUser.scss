@@ -1,0 +1,24 @@
+@import "../../styles/variables";
+.block-part{
+  height: 100%;
+}
+.school {
+  display: flex;
+  .school-details {
+    margin-left: 10px;
+  }
+}
+
+.block-section {
+  height: 100%;
+  .school:last-child {
+    border-bottom: none;
+  }
+}
+.wrapper{
+  .school{
+    &:nth-last-child(1){
+      border-bottom: none;
+    }
+  }
+}

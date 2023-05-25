@@ -1,0 +1,16 @@
+.reset-section {
+  height: 100%;
+  .reset-checkbox:nth-child(6) {
+    border-bottom: none;
+  }
+  .reset-topic {
+    display: flex;
+    justify-content: space-between;
+  }
+  .rst-topic-acc {
+    margin: 19px 0px 22px 0px;
+  }
+  .reset-name {
+    margin-left: 8px;
+  }
+}

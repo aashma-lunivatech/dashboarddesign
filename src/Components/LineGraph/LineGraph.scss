@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+.linegraph-section {
+  .graph-details {
+    .graph-topic {
+      margin-left: 24px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .rt-date {
+      border: 1px solid $container-background;
+      box-sizing: border-box;
+      border-radius: 4px;
+      margin-right: 24px;
+      display: flex;
+      justify-content: flex-end;
+      // border: 1px solid $white;
+      width: 252px;
+      height: 32px;
+    }
+    .date-icon {
+      margin-left: 17px;
+      margin-right: 12px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+.usage-condition-section {
+  height: 100%;
+  .paragraph-content {
+    margin-top: 9px;
+    display: flex;
+    justify-content: space-between;
+    background: $logged-color;
+    border-radius: 4px;
+    .title-dt {
+      padding: 4px 10px 4px 10px;
+    }
+  }
+}
